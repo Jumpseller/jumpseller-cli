@@ -1,0 +1,5 @@
+node_modules/
+.jumpseller-store
+.jumpseller-theme
+
+base

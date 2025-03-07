@@ -1,0 +1,37 @@
+{
+  "name": "jumpseller",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "A CLI tool for managing Jumpseller stores",
+  "main": "index.js",
+  "packageManager": "yarn@4.5.0",
+  "bin": {
+    "jumpseller": "./bin/jumpseller.js"
+  },
+  "engines": {
+    "node": ">= 18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jumpseller/jumpseller-cli.git"
+  },
+  "scripts": {
+    "lint": "eslint lib/**/*.js",
+    "lint:fix": "eslint --fix lib/**/*.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "chokidar": "^4.0.3",
+    "commander": "^13.1.0",
+    "form-data": "^4.0.2",
+    "micromatch": "^4.0.8",
+    "p-limit": "^6.2.0",
+    "readline-sync": "^1.4.10",
+    "table": "^6.9.0",
+    "unzipper": "^0.12.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1"
+  }
+}
