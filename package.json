@@ -6,9 +6,7 @@
   "description": "A CLI tool for managing Jumpseller stores",
   "main": "index.js",
   "packageManager": "yarn@4.5.0",
-  "bin": {
-    "jumpseller": "./bin/jumpseller.js"
-  },
+  "bin": "./bin/jumpseller.js",
   "engines": {
     "node": ">= 18.0"
   },
@@ -22,16 +20,18 @@
   },
   "dependencies": {
     "archiver": "^7.0.1",
-    "chokidar": "^4.0.3",
-    "commander": "^13.1.0",
-    "form-data": "^4.0.2",
+    "chokidar": "^5.0.0",
+    "commander": "^14.0.3",
+    "form-data": "^4.0.5",
     "micromatch": "^4.0.8",
-    "p-limit": "^6.2.0",
+    "p-limit": "^7.3.0",
     "readline-sync": "^1.4.10",
     "table": "^6.9.0",
     "unzipper": "^0.12.3"
   },
   "devDependencies": {
-    "eslint": "^8.57.1"
+    "@eslint/js": "^10.0.0",
+    "eslint": "^10.0.0",
+    "globals": "^16.5.0"
   }
 }
