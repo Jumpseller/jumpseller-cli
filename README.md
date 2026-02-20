@@ -7,7 +7,7 @@ This tool is still in early development. Currently only two families of commands
 - `access` for managing store credentials
 - `theme` a suite of tools for local theme development
 
-Run `jumpseller --help` and `jumpseller [command] --help` for more information about the commands.
+Run commands and subcommands with `--help` for more information.
 
 ## Installation
 
@@ -34,5 +34,5 @@ Basic development setup is to clone the repository and link it globally so the m
 git clone ssh://github.com/Jumpseller/jumpseller-cli
 cd jumpseller-cli
 yarn install
-yarn link
+npm link
 ```
